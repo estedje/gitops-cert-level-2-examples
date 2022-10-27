@@ -25,7 +25,7 @@ spec:
   - group: apps
     kind: Deployment
     jsonPointers:
-    - /metadata/metadata/creation
+    - /metadata/annotations/creation
   - kind: Secret
     jsonPointers:
     - /data/my-password       
